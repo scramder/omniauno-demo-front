@@ -2,7 +2,7 @@
 
 Demo simplificado del sistema Omnia Uno para portfolio profesional.
 
-**Omnia Uno** es una marca registrada. © 2024 Cristhian Muriel - Todos los derechos reservados.
+**Omnia Uno** es una marca registrada. © 2025 Cristhian Muriel - Todos los derechos reservados.
 
 ## Características
 
@@ -98,3 +98,4 @@ Luego:
 ## Notas
 
 Este es un demo visual con datos estáticos para mostrar el diseño y experiencia de usuario del sistema real Omnia Uno. No incluye funcionalidad backend ni persistencia de datos.
+
