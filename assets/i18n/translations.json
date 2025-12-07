@@ -6,6 +6,7 @@
     "login.username_placeholder": "Ingresa tu usuario",
     "login.password_placeholder": "Ingresa tu contraseña",
     "login.button": "Entrar",
+    "login.copyright": "© 2025 Cristhian Muriel - Omnia Uno",
     
     "header.search": "Buscar...",
     "header.notifications": "Notificaciones (demo)",
@@ -21,7 +22,7 @@
     "sidebar.profile": "Perfil",
     "sidebar.logout": "Cerrar sesión",
     
-    "footer.copyright": "2024 Omnia Uno - Demo Portfolio",
+    "footer.copyright": "2025 Omnia Uno - Demo Portfolio",
     "footer.github": "Ver código",
     
     "home.welcome": "Bienvenido, Admin Demo",
@@ -34,7 +35,7 @@
     "home.about_features": "<strong>Características del demo:</strong> Navegación SPA, diseño responsive, sistema de traducciones (ES/EN/PT), y réplica fiel de la interfaz del sistema productivo.",
     "home.copyright_title": "Derechos de Autor",
     "home.copyright_text": "<strong>Omnia Uno</strong> es una marca registrada y el código fuente está protegido por derechos de autor.",
-    "home.copyright_owner": "© 2024 Cristhian Muriel - Todos los derechos reservados.",
+    "home.copyright_owner": "© 2025 Cristhian Muriel - Todos los derechos reservados.",
     "home.copyright_note": "Este demo es parte de mi portfolio profesional y muestra mis capacidades en desarrollo frontend.",
     
     "works.title": "Gestión de Trabajos",
@@ -147,6 +148,7 @@
     "login.username_placeholder": "Enter your username",
     "login.password_placeholder": "Enter your password",
     "login.button": "Login",
+    "login.copyright": "© 2025 Cristhian Muriel - Omnia Uno",
     
     "header.search": "Search...",
     "header.notifications": "Notifications (demo)",
@@ -162,7 +164,7 @@
     "sidebar.profile": "Profile",
     "sidebar.logout": "Logout",
     
-    "footer.copyright": "2024 Omnia Uno - Demo Portfolio",
+    "footer.copyright": "2025 Omnia Uno - Demo Portfolio",
     "footer.github": "View code",
     
     "home.welcome": "Welcome, Admin Demo",
@@ -175,7 +177,7 @@
     "home.about_features": "<strong>Demo features:</strong> SPA navigation, responsive design, translation system (ES/EN/PT), and faithful replica of the production system interface.",
     "home.copyright_title": "Copyright",
     "home.copyright_text": "<strong>Omnia Uno</strong> is a registered trademark and the source code is protected by copyright.",
-    "home.copyright_owner": "© 2024 Cristhian Muriel - All rights reserved.",
+    "home.copyright_owner": "© 2025 Cristhian Muriel - All rights reserved.",
     "home.copyright_note": "This demo is part of my professional portfolio and showcases my frontend development capabilities.",
     
     "works.title": "Works Management",
@@ -288,6 +290,7 @@
     "login.username_placeholder": "Digite seu usuário",
     "login.password_placeholder": "Digite sua senha",
     "login.button": "Entrar",
+    "login.copyright": "© 2025 Cristhian Muriel - Omnia Uno",
     
     "header.search": "Buscar...",
     "header.notifications": "Notificações (demo)",
@@ -303,7 +306,7 @@
     "sidebar.profile": "Perfil",
     "sidebar.logout": "Sair",
     
-    "footer.copyright": "2024 Omnia Uno - Demo Portfolio",
+    "footer.copyright": "2025 Omnia Uno - Demo Portfolio",
     "footer.github": "Ver código",
     
     "home.welcome": "Bem-vindo, Admin Demo",
@@ -316,7 +319,7 @@
     "home.about_features": "<strong>Características da demo:</strong> Navegação SPA, design responsivo, sistema de traduções (ES/EN/PT), e réplica fiel da interface do sistema produtivo.",
     "home.copyright_title": "Direitos Autorais",
     "home.copyright_text": "<strong>Omnia Uno</strong> é uma marca registrada e o código fonte está protegido por direitos autorais.",
-    "home.copyright_owner": "© 2024 Cristhian Muriel - Todos os direitos reservados.",
+    "home.copyright_owner": "© 2025 Cristhian Muriel - Todos os direitos reservados.",
     "home.copyright_note": "Esta demo faz parte do meu portfólio profissional e mostra minhas capacidades em desenvolvimento frontend.",
     
     "works.title": "Gestão de Trabalhos",
