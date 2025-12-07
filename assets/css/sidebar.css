@@ -1,0 +1,133 @@
+/* Sidebar del Dashboard */
+.dashboard-sidebar {
+    width: 260px;
+    background: var(--white);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: width var(--transition-base);
+    flex-shrink: 0;
+}
+
+.dashboard-sidebar.collapsed {
+    width: 80px;
+}
+
+/* Botón de toggle */
+.sidebar-toggle {
+    position: absolute;
+    top: var(--spacing-md);
+    right: -12px;
+    width: 24px;
+    height: 24px;
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform var(--transition-base);
+}
+
+.sidebar-toggle:hover {
+    background: var(--bg-light);
+}
+
+.dashboard-sidebar.collapsed .sidebar-toggle i {
+    transform: rotate(180deg);
+}
+
+/* Navegación */
+.sidebar-nav {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--spacing-lg) 0;
+}
+
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-item {
+    margin: 0;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+    color: var(--text-light);
+    text-decoration: none;
+    transition: all var(--transition-base);
+    position: relative;
+}
+
+.sidebar-link:hover {
+    background: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.sidebar-item.active .sidebar-link {
+    background: var(--bg-light);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.sidebar-item.active .sidebar-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--primary-color);
+}
+
+.sidebar-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.sidebar-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: opacity var(--transition-base);
+}
+
+.dashboard-sidebar.collapsed .sidebar-label {
+    opacity: 0;
+    width: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-sidebar {
+        position: fixed;
+        left: 0;
+        top: 64px;
+        bottom: 0;
+        z-index: var(--z-fixed);
+        transform: translateX(-100%);
+        transition: transform var(--transition-base);
+    }
+
+    .dashboard-sidebar.mobile-open {
+        transform: translateX(0);
+    }
+
+    .sidebar-toggle {
+        display: none;
+    }
+}

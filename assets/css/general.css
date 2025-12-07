@@ -1,0 +1,112 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-dark);
+    background: var(--bg-light);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard-layout {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.dashboard-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: var(--spacing-lg);
+}
+
+.content-body {
+    max-width: var(--max-width-2xl);
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Content Header */
+.content-header {
+    margin-bottom: var(--spacing-xl);
+}
+
+.content-header h1 {
+    margin: 0 0 var(--spacing-sm) 0;
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.welcome-subtitle {
+    margin: 0;
+    font-size: var(--font-size-lg);
+    color: var(--text-light);
+}
+
+/* Welcome Message */
+.welcome-message {
+    background: white;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow);
+}
+
+.welcome-message h3 {
+    margin: 0 0 var(--spacing-md) 0;
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--text-dark);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.welcome-message h3 i {
+    color: var(--error-color);
+}
+
+.welcome-message p {
+    margin: 0 0 var(--spacing-md) 0;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.welcome-message p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-content {
+        padding: var(--spacing-md);
+    }
+
+    .content-header h1 {
+        font-size: var(--font-size-xl);
+    }
+
+    .welcome-message {
+        padding: var(--spacing-lg);
+    }
+}

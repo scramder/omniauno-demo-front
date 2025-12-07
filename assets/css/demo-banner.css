@@ -1,0 +1,66 @@
+/* Banner de Demo */
+.demo-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: var(--spacing-sm) 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: calc(var(--z-sticky) + 1);
+    box-shadow: var(--shadow-md);
+}
+
+.demo-banner-content {
+    max-width: var(--max-width-2xl);
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.demo-banner-content i {
+    font-size: 1.2rem;
+}
+
+.demo-banner-content span {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+.demo-banner-link {
+    color: white;
+    text-decoration: none;
+    padding: var(--spacing-xs) var(--spacing-md);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: var(--border-radius-md);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    transition: background var(--transition-base);
+}
+
+.demo-banner-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .demo-banner-content {
+        font-size: var(--font-size-xs);
+        gap: var(--spacing-sm);
+    }
+
+    .demo-banner-content span {
+        font-size: var(--font-size-xs);
+    }
+
+    .demo-banner-link {
+        font-size: var(--font-size-xs);
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+}

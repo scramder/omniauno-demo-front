@@ -1,0 +1,284 @@
+/* Estilos del Dashboard de Trabajos - Idéntico al original */
+.wk_dsh-body {
+    background: var(--bg-light);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.wk_dsh-container {
+    max-width: var(--max-width-xl);
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Header */
+.wk_dsh-header {
+    background: var(--primary-color);
+    color: var(--text-white);
+    padding: 0;
+    margin-bottom: var(--spacing-sm);
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+}
+
+.wk_dsh-header .header-content {
+    max-width: var(--max-width-xl);
+    margin: 0 auto;
+    padding: 0 var(--spacing-xl);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+}
+
+.wk_dsh-header .header-left h1 {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--text-white);
+    line-height: 1.2;
+    padding: 0.3em 0;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.wk_dsh-header .header-right {
+    display: flex;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Botones de ordenamiento */
+.wk_dsh-order-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    padding: 0 var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.wk_dsh-order-label {
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-right: 1em;
+}
+
+.wk_dsh-order-btn {
+    padding: 0.6em 1.2em;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    border-radius: 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: all 0.2s ease;
+    min-width: 80px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+
+.wk_dsh-order-btn:hover {
+    color: #475569;
+    background: rgba(71, 85, 105, 0.05);
+}
+
+.wk_dsh-order-btn.active {
+    color: #1e293b;
+    background: rgba(71, 85, 105, 0.08);
+    border-bottom-color: var(--primary-color);
+}
+
+/* Tabla */
+.wk_dsh-main {
+    padding: 0 var(--spacing-xl);
+}
+
+.wk_dsh-table {
+    width: 100%;
+    background: var(--white);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border-collapse: collapse;
+}
+
+.wk_dsh-table thead {
+    background: var(--primary-color);
+    color: var(--text-white);
+}
+
+.wk_dsh-table th {
+    padding: 1em;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.wk_dsh-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: background 0.2s ease;
+}
+
+.wk_dsh-table tbody tr:hover {
+    background: var(--bg-light);
+}
+
+.wk_dsh-table td {
+    padding: 1em;
+    color: var(--text-dark);
+    font-size: 0.9em;
+}
+
+.work-number {
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* Badges de estado */
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.status-pendiente {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-en_progreso {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-completado {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.status-cancelado {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* Badges de prioridad */
+.priority-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.priority-baja {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.priority-media {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.priority-alta {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.priority-urgente {
+    background: #dc2626;
+    color: white;
+}
+
+/* Botones de acción */
+.work-actions {
+    display: flex;
+    gap: var(--spacing-xs);
+}
+
+.action-btn {
+    padding: 6px 10px;
+    border: none;
+    background: var(--bg-light);
+    color: var(--text-light);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9em;
+}
+
+.action-btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-delete:hover {
+    background: var(--error-color);
+}
+
+/* Botón primario */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 0.9em;
+}
+
+.btn-primary {
+    background: var(--white);
+    color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background: var(--bg-light);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wk_dsh-header .header-content {
+        padding: var(--spacing-md);
+    }
+
+    .wk_dsh-order-row {
+        padding: 0 var(--spacing-md);
+        flex-wrap: wrap;
+    }
+
+    .wk_dsh-main {
+        padding: 0 var(--spacing-md);
+    }
+
+    .wk_dsh-table {
+        font-size: 0.85em;
+    }
+
+    .wk_dsh-table th,
+    .wk_dsh-table td {
+        padding: 0.75em 0.5em;
+    }
+
+    .work-actions {
+        flex-direction: column;
+    }
+}

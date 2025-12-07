@@ -1,0 +1,122 @@
+<div class="msg_dsh">
+    <div class="msg_dsh-body">
+        <div class="msg_dsh-container">
+            <div class="msg_dsh-header">
+                <div class="header-content">
+                    <div class="header-left">
+                        <h1><i class="fas fa-inbox"></i> <span data-i18n="messages.title">Bandeja de Entrada</span></h1>
+                    </div>
+                    <div class="header-right">
+                        <button class="btn btn-primary">
+                            <i class="fas fa-plus"></i> <span data-i18n="messages.new_button">Nuevo Mensaje</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="msg_dsh-filters">
+                <div class="filter-left">
+                    <label data-i18n="messages.filter_label">Filtrar por:</label>
+                    <button class="filter-btn active" data-filter="all" data-i18n="messages.filter_all">Todos</button>
+                    <button class="filter-btn" data-filter="work" data-i18n="messages.filter_work">Con Trabajo</button>
+                    <button class="filter-btn" data-filter="general" data-i18n="messages.filter_general">Generales</button>
+                    <button class="filter-btn" data-filter="unread" data-i18n="messages.filter_unread">No Leídos</button>
+                </div>
+            </div>
+
+            <div class="msg_dsh-main">
+                <div class="msg_dsh-table-container">
+                    <table class="msg_dsh-table">
+                        <thead>
+                            <tr>
+                                <th data-i18n="messages.table.type">Tipo</th>
+                                <th data-i18n="messages.table.conversation">Conversación</th>
+                                <th data-i18n="messages.table.last_message">Último Mensaje</th>
+                                <th data-i18n="messages.table.date">Fecha</th>
+                                <th data-i18n="messages.table.actions">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="message-row">
+                                <td class="message-type">
+                                    <span class="type-icon type-work" title="Con trabajo">
+                                        <i class="fas fa-briefcase"></i>
+                                    </span>
+                                </td>
+                                <td class="message-conversation">
+                                    <div class="conversation-info">
+                                        <div class="conversation-title">Trabajo #WK-251019-212929-564 - Juan García</div>
+                                        <div class="conversation-preview">Te: Revisa ese trabajo</div>
+                                    </div>
+                                </td>
+                                <td class="message-last">Te: Revisa ese trabajo</td>
+                                <td class="message-date">Ahora</td>
+                                <td class="message-actions">
+                                    <button class="action-btn btn-view" title="Ver conversación"><i class="fas fa-comments"></i></button>
+                                    <button class="action-btn btn-delete" title="Eliminar"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <tr class="message-row">
+                                <td class="message-type">
+                                    <span class="type-icon type-work" title="Con trabajo">
+                                        <i class="fas fa-briefcase"></i>
+                                    </span>
+                                </td>
+                                <td class="message-conversation">
+                                    <div class="conversation-info">
+                                        <div class="conversation-title">Trabajo #WK-250916-202751-695 - Juan García</div>
+                                        <div class="conversation-preview">Juan García: bueno, a otra cosa</div>
+                                    </div>
+                                </td>
+                                <td class="message-last">Juan García: bueno, a otra cosa</td>
+                                <td class="message-date">11 días</td>
+                                <td class="message-actions">
+                                    <button class="action-btn btn-view" title="Ver conversación"><i class="fas fa-comments"></i></button>
+                                    <button class="action-btn btn-delete" title="Eliminar"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <tr class="message-row">
+                                <td class="message-type">
+                                    <span class="type-icon type-work" title="Con trabajo">
+                                        <i class="fas fa-briefcase"></i>
+                                    </span>
+                                </td>
+                                <td class="message-conversation">
+                                    <div class="conversation-info">
+                                        <div class="conversation-title">Trabajo #WK-251026-152349-866 - Juan García</div>
+                                        <div class="conversation-preview">Juan García: Estoy en eso</div>
+                                    </div>
+                                </td>
+                                <td class="message-last">Juan García: Estoy en eso</td>
+                                <td class="message-date">11-10-25</td>
+                                <td class="message-actions">
+                                    <button class="action-btn btn-view" title="Ver conversación"><i class="fas fa-comments"></i></button>
+                                    <button class="action-btn btn-delete" title="Eliminar"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <tr class="message-row message-unread">
+                                <td class="message-type">
+                                    <span class="type-icon type-general" title="General">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </td>
+                                <td class="message-conversation">
+                                    <div class="conversation-info">
+                                        <div class="conversation-title">Juan García (2025-10-31)</div>
+                                        <div class="conversation-preview">Te: No hay problema! gracias! <span class="unread-badge">😊</span></div>
+                                    </div>
+                                </td>
+                                <td class="message-last">Te: No hay problema! gracias! 😊</td>
+                                <td class="message-date">31-10-25</td>
+                                <td class="message-actions">
+                                    <button class="action-btn btn-view" title="Ver conversación"><i class="fas fa-comments"></i></button>
+                                    <button class="action-btn btn-delete" title="Eliminar"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
